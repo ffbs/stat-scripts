@@ -29,7 +29,7 @@ for a in aps:
 	#print str(a[0])+ " - " + str(a[1])
 out = yaml.dump(aLog)
 print out
-f = gzip.open('test.yaml.gz', 'ab')
+f = gzip.open('client_links.yaml.gz', 'ab')
 f.write(out)
 f.close()
 
